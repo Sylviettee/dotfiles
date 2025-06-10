@@ -1,0 +1,101 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+    "type": "file",
+    "source": "$HOME/.config/fastfetch/sylveon"
+  },
+  "modules": [
+    {
+      "type": "break"
+    },
+    {
+      "type": "break"
+    },
+
+    {
+      "type": "title",
+      "color": {
+        "user": "blue",
+        "at": "magenta",
+        "host": "white"
+      },
+      "format": "              {user-name-colored} {at-symbol-colored} {host-name-colored}"
+    },
+    {
+      "type": "custom",
+      "format": "┌───────────────────────────────────────┐"
+    },
+
+    {
+      "type": "os",
+      "format": "{name}",
+      "keyColor": "blue",
+      "key": "  󰣇 OS "
+    },
+    {
+      "type": "kernel",
+      "format": "{release}",
+      "keyColor": "blue",
+      "key": "   Kernel "
+    },
+
+    {
+      "type": "packages",
+      "keyColor": "magenta",
+      "key": "   Packages "
+    },
+    {
+      "type": "shell",
+      "keyColor": "magenta",
+      "key": "   Shell "
+    },
+
+    {
+      "type": "de",
+      "keyColor": "white",
+      "key": "  󰍹 DE "
+    },
+    {
+      "type": "terminal",
+      "keyColor": "white",
+      "key": "   Terminal "
+    },
+
+    {
+      "type": "cpu",
+      "keyColor": "magenta",
+      "key": "   CPU ",
+      "format": "{name}"
+    },
+    {
+      "type": "gpu",
+      "keyColor": "magenta",
+      "key": "   GPU ",
+      "format": "{name}",
+      "hideType": "discrete"
+    },
+
+    {
+      "type": "memory",
+      "keyColor": "blue",
+      "key": "  󱀳 Memory ",
+      "format": "{used} / {total}"
+    },
+    {
+      "type": "uptime",
+      "keyColor": "blue",
+      "key": "   Uptime ",
+      "format": ""
+    },
+
+    {
+      "type": "custom",
+      "format": "└───────────────────────────────────────┘"
+    },
+    {
+      "type": "colors",
+      "symbol": "circle",
+      "paddingLeft": 13
+    }
+  ]
+}

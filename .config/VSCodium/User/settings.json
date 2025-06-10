@@ -1,0 +1,30 @@
+{
+  "workbench.colorTheme": "Catppuccin Mocha",
+  "workbench.iconTheme": "catppuccin-mocha",
+  "editor.tabSize": 2,
+  "[lua]": {
+    "editor.tabSize": 3
+  },
+  "[rust]": {
+    "editor.tabSize": 4
+  },
+  "files.insertFinalNewline": true,
+  "editor.fontFamily": "FiraCode Nerd Font Mono",
+  "cSpell.userWords": [
+    "atuin",
+    "batpipe",
+    "catppuccin",
+    "compinstall",
+    "direnv",
+    "Espanso",
+    "fastfetch",
+    "Fira",
+    "fpath",
+    "GOPATH",
+    "pacman",
+    "pkgdir",
+    "pkgfile",
+    "pkgs",
+    "sylveon"
+  ]
+}
