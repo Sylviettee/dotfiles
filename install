@@ -3,6 +3,7 @@
 ln -s $PWD/.zshrc $HOME/.zshrc
 ln -s $PWD/.zsh $HOME/.zsh
 
+ln -s $PWD/.config/espanso $HOME/.config/espanso
 ln -s $PWD/.config/fastfetch $HOME/.config/fastfetch
 ln -s $PWD/.config/kitty $HOME/.config/kitty
 
